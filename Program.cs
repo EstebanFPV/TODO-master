@@ -67,7 +67,7 @@ namespace TODO
             
             foreach (var item in models)
             {
-                Console.WriteLine(String.Concat("Title::::::::: ",item.Title+" Details~ ",item.Details+" Key~ ",item.Key+" Priority~ ",item.Priority));
+                Console.WriteLine(String.Concat("Title: ",item.Title+" Details~ ",item.Details+" Key~ ",item.Key+" Priority~ ",item.Priority));
             }
         }
 
